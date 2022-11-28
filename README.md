@@ -1,6 +1,6 @@
 # Polymer-GA
 
-This repository contains the code for the Hutchison Group's polymer genetic algorithm (GA). This GA will perform crossover, mutation, etc. on oligomers of 6 monomers. The default sequence is ABABAB. 
+This repository contains the code for the Hutchison Group's polymer genetic algorithm (GA). This GA will perform crossover, mutation, etc. on oligomers of 2 monomers with a length of 6. The default sequence is ABABAB. 
 
 The fitness function can be changed for your desired scoring property. In this code, we have scored on polarizability, optical bandgap, and solvation energy ratio between water and hexane, assuming the semiempirical calculations for your search space are done previsouly (`Calculations/GFN2`, `Calculations/sTDDFTxtb`, and xTB in `Calculations/solvation_water` and `Calculations/solvation_hexane`)
 
